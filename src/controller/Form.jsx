@@ -31,7 +31,7 @@ const Form = () => {
       });
       setErrors(errObj);
     } else {
-      alert("Form Submitted ✅");
+      alert("Form Submitted ");
       console.log(form);
       setErrors({});
     }

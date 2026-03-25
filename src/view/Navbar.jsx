@@ -17,12 +17,12 @@ const Navbar = () => {
     <nav className="bg-white/80 backdrop-blur-md border-b sticky top-0 z-50 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
         
-        {/* Logo */}
+        /* Logo */
         <h1 className="text-2xl font-bold tracking-tight text-gray-800 cursor-pointer">
           Shop<span className="text-teal-500">Smart</span>
         </h1>
 
-        {/* Desktop Menu */}
+        /* Desktop Menu */
         <div className="hidden md:flex items-center gap-8">
           <Link to="/" className={navLink("/")}>
             Home
@@ -32,20 +32,20 @@ const Navbar = () => {
           </Link>
         </div>
 
-        {/* Right Side */}
+        /* Right Side */
         <div className="flex items-center gap-5">
           
-          {/* Cart */}
+          /* Cart */
           <div className="relative cursor-pointer">
             <FiShoppingCart className="text-2xl text-gray-700 hover:text-teal-500 transition" />
             
-            {/* Badge (optional) */}
+            /* Badge (optional) */
             <span className="absolute -top-2 -right-2 bg-teal-500 text-white text-xs px-1.5 rounded-full">
               2
             </span>
           </div>
 
-          {/* Mobile Toggle */}
+          /* Mobile Toggle */
           <button
             onClick={() => setOpen(!open)}
             className="md:hidden text-2xl text-gray-700"
@@ -55,7 +55,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Mobile Menu */}
+      /* Mobile Menu */
       <div
         className={`md:hidden transition-all duration-300 ease-in-out overflow-hidden ${
           open ? "max-h-40 opacity-100" : "max-h-0 opacity-0"

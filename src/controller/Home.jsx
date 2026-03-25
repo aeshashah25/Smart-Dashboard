@@ -46,7 +46,7 @@ const Home = () => {
   <div className="bg-gray-100 min-h-screen py-6">
     <div className="max-w-7xl mx-auto px-4">
 
-      {/* 🔍 Search + Filter */}
+      {/* Search + Filter */}
       <div className="bg-white p-4 rounded-xl shadow mb-6 flex flex-col md:flex-row gap-4">
         <input
           type="text"
@@ -66,7 +66,7 @@ const Home = () => {
         </select>
       </div>
 
-      {/* 🛍️ Product Grid */}
+      {/* Product Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {filtered.map((p) => (
           <ProductCard key={p.id} product={p} />

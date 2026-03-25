@@ -29,3 +29,5 @@ tailwind.config.js
 *.njsproj
 *.sln
 *.sw?
+
+.vercel

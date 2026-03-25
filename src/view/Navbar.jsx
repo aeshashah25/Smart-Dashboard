@@ -45,7 +45,7 @@ const Navbar = () => {
             </span>
           </div>
 
-          /* Mobile Toggle */
+         { /* Mobile Toggle */}
           <button
             onClick={() => setOpen(!open)}
             className="md:hidden text-2xl text-gray-700"
